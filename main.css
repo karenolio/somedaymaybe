@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+}
+
+/** { 
+  outline: 1px solid black;
+}
+*/
+.somedaymaybe {
+  font-family: GEORGIA;
+  font-style: italic;
+  font-weight: bold;
+  color: white;/*#fbd386*/
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.description{
+  font-family: georgia;
+  font-style: italic;
+  color: white; /*#fbd386*/
+  /*opacity: 60%;*/
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+.explanation { /*text under the form*/
+  font-family: georgia;
+  font-style: italic;
+  color: gray; /*#fbd386*/
+  /*opacity: 10%;*/ 
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 16px;
+}
+
+/*body {
+	background-color: #10d897;
+}*/
+
+#form {
+  margin-top: 40px;
+}
+
+
+#newItem { /*this is the "enter item here" bar*/
+  height: 45px;
+  width: 700px;
+  font-family: georgia;
+  font-size: 1.5em;
+  font-style: italic;
+  text-indent: 12px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-color: #bdc3c7;
+}
+
+#newItem:hover {
+	border-color: #fbd386;
+}
+
+#addItem { /*this is the "+" box*/
+  height: 49px;
+  background-color: ##bdc3c7;
+  color:white;
+  border: 0;
+  border-radius: 2px;
+  margin-left: -6px;
+  margin-top: 90px; /*change this to move form's bar up and down*/
+  margin-bottom: 1px;
+  padding: 3px 20px 3px 20px;
+  font-size: 25px;
+  font-family: arial;
+  font-style: bold;
+}
+
+#addItem:hover {
+	background:#fbd386;
+}
+
+body { /*this is the yellow gradient background*/
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #f8c83f;
+  background: -webkit-linear-gradient(#f8c83f, #f1c038);
+  background:    -moz-linear-gradient(#f8c83f, #f1c038);
+  background:         linear-gradient(#f8c83f, #f1c038);
+}
+
+.main { /* this is the horizontal block of white */
+  background-color: white;
+  margin-top: 70px;
+  min-width: 1200px;
+  min-height: 50%;
+}
+
+/* Bottom Content */
+#bottom {
+	width: 50%; 
+	/*auto: X is all the way to the right*/
+	/*35%: 35% from left*/
+	text-align: left;
+	font-family: arial;
+	color: grey;
+	font-size: 20px;
+}
+
+#itemList {
+	text-align: left;
+	padding-left: 50px;
+	padding-bottom: 70px;
+	padding-top: 20px;
+	display: block;
+}
+
+.list {
+	display: inline-block;
+}
+
+.box {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+li {
+	font-family: georgia; 
+	font-style: italic;
+	font-size: 1em;
+	display: block;
+	padding: 3px 0; 
+}
+
+.highlight {
+	color: #2ecc71; /*greenish color*/
+}
+
+.checkbox {
+	height: 30px; 
+	background-color: #bdc3c7;
+	border: 0;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-family: arial;
+	color: white;
+}
+
+.checkbox:hover {
+	background-color: #2ecc71;
+	color: #ffffff;
+}
+
+.delete { 
+	height: 30px;
+	background-color: #bdc3c7;
+	border: 0;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-family: arial;
+	float: right;
+	color: white;
+}
+
+.delete:hover {
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+.delete:focus {
+	outline: none;
+}
+
+	
+
